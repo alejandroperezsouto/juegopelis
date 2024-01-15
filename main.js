@@ -203,7 +203,7 @@ let puntos = 0;
 
 function cargar() {
 	if (npista < 3) {
-		document.querySelector("#contenido").innerHTML = peli[npeli][npista] ;
+		document.querySelector("#contenido").innerHTML = "<li>"+peli[npeli][npista] ;
 		npista++;
 	} else {
 		let respuesta = prompt("Qué película es?");
