@@ -58,7 +58,13 @@ body {
     text-align: center;
   margin-bottom:145px;
       font-size:45px;
-       border: solid 3px red
-          ;
-      border-radius:25px
+       border: solid 3px red;
+      border-radius:25px;
+      
   }
+
+  .btn:hover {
+
+    background-color: red;
+    border: solid 3px yellow
+    }
