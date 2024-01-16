@@ -10,12 +10,12 @@ body {
   }
   
   #todo {
-    ;
     display: flex;
     flex-direction: column; 
     justify-content: center;
     align-items: center;
     height: 100vh; 
+    gap:15px
   }
   
   h1 {
@@ -26,7 +26,7 @@ body {
    border-bottom:red solid 3px;
       border-left:red solid 3px;
       border-radius:25px;
-      margin-top:120px ;
+      margin-top:50px ;
       
   }
  p {
@@ -42,11 +42,11 @@ body {
   #contenido {
     color: yellow;
     text-align: center;
-    flex: 1; 
+   
       font-size:45px;
-      border-left:red solid 3px;
+     
       border-radius:25px;
-       border-bottom:red solid 3px;
+      max-height: 35%;
       
           padding:15px
           
@@ -56,7 +56,7 @@ body {
     color: yellow;
     text-align: center;
       font-size:45px;
-          margin:145px auto;
+          margin:45px auto;
      border-right:3px solid red;
       border-left:3px solid red;;
       border-radius:25px;

@@ -15,7 +15,7 @@ let peli = [
 		"Huid insensatos.",
 		"Al amanecer del tercer día, mira al este.",
 		"Comarca, Bolsón.",
-		["el Señor de los Anillos", "lord of the rings", "El señor de los anillos"]
+		["el señor de los anillos", "lord of the rings", "El señor de los anillos"]
 	],
 	[
 		"He visto cosas que jamás creeríais.",
@@ -33,7 +33,7 @@ let peli = [
 		"Voy a hacerle una oferta que no podrá rechazar.",
 		"Un hombre que no pasa tiempo con su familia no puede ser considerado hombre.",
 		"Guarda tus amigos cerca y a tus enemigos aún más cerca.",
-		["el Padrino", "el Padríno", "the goodfather"]
+		["el Padrino", "el padríno", "the goodfather"]
 	],
 	[
 		"Que la Fuerza te acompañe.",
@@ -202,7 +202,7 @@ let puntos = 0;
 
 function cargar() {
 	if (npista < 3) {
-		document.querySelector("#contenido").innerHTML = peli[npeli][npista] ;
+		document.querySelector("#contenido").innerHTML ="🎬"+ peli[npeli][npista] ;
 		npista++;
 	} else {
 		let respuesta = prompt("Qué película es?");
@@ -220,7 +220,7 @@ function cargar() {
 		npista = 0;
 		npeli++;
 		document.querySelector("#contador").innerHTML =
-			"Aciertos:" + puntos + " de " + npeli;
+			"Aciertos:" + puntos + "🎞" + " de " + npeli + "🎦";
 		cargar();
 	}
 }
