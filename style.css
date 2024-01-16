@@ -36,15 +36,7 @@ background:  rgba(249,241,79,1);
       letter-spacing: 5px;
       
   }
- p {
-    color: rgba(209,0,0,1);
-    padding: 5px;
-    text-align: center;
-      font-size:1rem;
-      border-radius:25px;
-      margin-top:20px ;
-    text-shadow: black 2px 2px 2px
-  }
+
   
   #contenido {
     color:rgba(209,0,0,1) ;
