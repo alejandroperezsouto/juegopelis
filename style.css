@@ -15,6 +15,7 @@ background: linear-gradient(225deg, rgba(249,241,79,1) 20%, rgba(68,118,251,0.83
     height: 100vh; 
     gap:15px;
     max-height:100%;
+    max-width: 100vh;
       
   }
   
