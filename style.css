@@ -1,83 +1,107 @@
 
-
 body {
-  color: yellow;
+  color: rgba(209,0,0,1) 100%;
  
-    font-family: sans-serif;
-    background: black;
+    font-family: Impact,  'Arial Narrow Bold', sans-serif;
+    
+    background: rgb(249,241,79);
+background: linear-gradient(225deg, rgba(249,241,79,1) 20%, rgba(68,118,251,0.835171568627451) 50%, rgba(209,0,0,1) 81%);
+    max-height: 100%;
     max-width: 100%;
-      height:100vh
-  }
-  
-  #todo {
     display: flex;
     flex-direction: column; 
     justify-content: center;
     align-items: center;
     height: 100vh; 
-    gap:15px
+    gap:15px;
+    max-height:100%;
+      
   }
   
+ 
+  
   h1 {
-    color: yellow;
+    color:rgba(209,0,0,1);
+    
+background:  rgba(249,241,79,1);
     padding: 25px;
+    text-shadow: rgba(68,118,251,0.835171568627451) 5px 5px 3px;
     text-align: center;
       font-size:65px;
-   border-bottom:red solid 3px;
-      border-left:red solid 3px;
+   border-bottom:black solid 3px;
+      border-left:tanred solid 3px;
+      box-shadow: rgba(68,118,251,0.835171568627451) 15px 15px 15px ;
       border-radius:25px;
-      margin-top:50px ;
+      letter-spacing: 5px;
       
   }
  p {
-    color: yellow;
+    color: rgba(209,0,0,1);
     padding: 5px;
     text-align: center;
-      font-size:15px;
-   border-bottom:red solid 3px;
-      border-left:red solid 3px;
+      font-size:1rem;
       border-radius:25px;
-      margin-top:20px ;}
+      margin-top:20px ;
+    text-shadow: black 2px 2px 2px
+  }
   
   #contenido {
-    color: yellow;
+    color:rgba(209,0,0,1) ;
     text-align: center;
-   
+    border-bottom:black solid 3px;
+    border-left:tanred solid 3px;
+    box-shadow: rgba(68,118,251,0.835171568627451) 15px 15px 15px ;
+    max-height:  25%;
+    background: rgb(119,119,119);
+    background: linear-gradient(137deg, rgba(249,241,79,1) 20%,rgba(209,0,0,1) 100%);;
       font-size:45px;
-     
-      border-radius:25px;
+       border-radius:25px;
       max-height: 35%;
-      
-          padding:15px
+      text-shadow: black 1px 1px 1px;
+          padding:15px;
+          text-shadow: black 2px 2px 2px
           
   }
   
   #contador {
-    color: yellow;
+    background: rgb(119,119,119);
+background:linear-gradient(137deg, rgba(249,241,79,1) 20%,rgba(209,0,0,1) 100%);
     text-align: center;
       font-size:45px;
+      border-bottom:black solid 3px;
+      border-left:tanred solid 3px;
+      box-shadow: rgba(68,118,251,0.835171568627451) 15px 15px 15px ;
           margin:45px auto;
-     border-right:3px solid red;
-      border-left:3px solid red;;
+          text-shadow: black 2px 2px 2px;
       border-radius:25px;
       padding: 15px;
+      background-color:yellowgreen;
+      color:rgba(209,0,0,1) ;
+     
       
   }
   
   .btn {
-    background-color: yellow;
-    padding: 35px;
-    align-self: center;
-    text-align: center;
-  margin-bottom:145px;
-      font-size:45px;
-       border: solid 3px red;
-      border-radius:25px;
-      
+    background: rgb(119,119,119);
+    background:linear-gradient(137deg, rgba(249,241,79,1) 20%,rgba(209,0,0,1) 100%);
+        text-align: center;
+          font-size:45px;
+          border-bottom:black solid 3px;
+          border-left:tanred solid 3px;
+          box-shadow: rgba(68,118,251,0.835171568627451) 15px 15px 15px ;
+              margin:5px auto;
+              text-shadow: black 2px 2px 2px;
+          border-radius:25px;
+          padding: 15px;
+          background-color:yellowgreen;
+          color:rgba(209,0,0,1) ;
+      text-shadow: black 2px 2px 2px
   }
 
-  .btn:hover {
+  .btn:active{
 
-    background-color: red;
-    border: solid 3px yellow
+   
+scale: 0.98;
+box-shadow: rgba(68,118,251,0.835171568627451) 10px 10px 15px
+    
     }

@@ -1,8 +1,8 @@
 let peli = [
 	[
-		"Soy el rey del mundo.",
-		"Estás temblando.",
-		"La vida es un juego de azar..",
+		"1.Soy el rey del mundo.",
+		"2.Estás temblando.",
+		"3.La vida es un juego de azar.",
 		["titanic", "taitanic", "La del barco "]
 	],
 	[
@@ -226,3 +226,6 @@ function cargar() {
 }
 
 cargar();
+
+
+
